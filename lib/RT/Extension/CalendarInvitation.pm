@@ -2,11 +2,15 @@ use strict;
 use warnings;
 package RT::Extension::CalendarInvitation;
 
-our $VERSION = '0.01';
+our $VERSION = '0.9.0';
 
 =head1 NAME
 
-RT-Extension-CalendarInvitation - Allow to send calendar invitations with RT
+RT-Extension-CalendarInvitation
+
+Allow to send calendar invitations with RT
+
+=over
 
 =item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
 
@@ -19,6 +23,8 @@ Add this line:
     rm -rf /opt/rt4/var/mason_data/obj
 
 =item Restart your webserver
+
+=back
 
 =head1 LICENSE AND COPYRIGHT
 
